@@ -16,13 +16,12 @@
   .product{
     margin-bottom: 10px;
     border: 1px solid #ced4da;
-    border-radius: 2%;
+    border-radius: 1%;
     background-color: #fff;
-    box-shadow:0 0 4px rgb(99, 179, 229);
+    box-shadow:0 0 4px rgb(255,20,147);
     margin-left: 25px;
     margin-top: 10px;
     width:300px;
-    display: block;
     text-align: center;
   }
 
@@ -39,7 +38,7 @@
     background-color: #fff;
     color: #212529;
     border: none;
-    color:rgb(21, 0, 255);
+    color:rgb(199,21,133);
     cursor: pointer;
     border-radius: 5px;
     font-size: 30px;
@@ -50,7 +49,7 @@
   }
 
   .removeButton{
-    background-color: red;
+    background-color: #FFC0CB;
     margin-top: 10%;
     padding: 8px;
     margin-bottom: 10px;
