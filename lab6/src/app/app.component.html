@@ -1,0 +1,13 @@
+
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/albums">Albums</a></li>
+  </ul>
+</nav>
+
+<div [ngClass]="getBackgroundClass()">
+  <router-outlet></router-outlet>
+</div>
+<router-outlet />

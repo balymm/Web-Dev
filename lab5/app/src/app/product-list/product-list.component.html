@@ -3,7 +3,7 @@
 <div class="gg">
   <div *ngFor="let product of products" class="product">
     <h3>
-      <a [title]="product.name + ' details'" href="{{product.href}}">  
+      <a [title]="product.name + ' details'" href="{{product.description}}">  <!--HERE CLICK ON NAME, href="{{product.href}}-->
         {{ product.name }}
         
       </a>
@@ -20,9 +20,6 @@
     <p *ngIf="product.description"><b>Rating: {{product.rating}}</b></p>
 
 
-    <a [href]="getWhatsAppShareLink(product.href)" target="_blank"><button type="button" >Share on WhatsApp</button></a>
-    <p></p>
-    <a [href]="getTelegramShareLink(product.href)" target="_blank"><button type="button">Share on Telegram</button></a>
     <app-product-alerts
       [product]="product" 
       (notify)="onNotify()">
