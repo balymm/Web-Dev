@@ -3,5 +3,9 @@
     margin: 0;
     padding: 0;
     background-color: rgb(255, 209, 223);
+    color: #000;
 }
   
+*:visited{
+    color: blueviolet;
+}

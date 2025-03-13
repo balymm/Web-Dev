@@ -3,7 +3,6 @@
     <h2>Album Details</h2>
     <p>ID : {{ album?.id }}</p>
     <p>Title : {{ album?.title }}</p>
-
     <label for="albumTitle">Title:</label>
     <input type="text" id = 'albumTitle' [(ngModel)] = 'editedTitle'>
     <button (click) = "saveTitle()">Save</button>
